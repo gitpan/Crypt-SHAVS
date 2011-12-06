@@ -1,0 +1,15 @@
+Revision history for Perl module Crypt::SHAVS.
+
+0.01  Tue Dec  6 06:12:24 MST 2011
+	- Original version
+		-- regarded as initial prototype
+		-- interface might change radically
+	- Try using the most familiar output format
+		-- based on "check" mode of md5sum/shasum
+		-- minus the WARNINGs and summaries
+	- Digest::SHA is not actually required for Crypt::SHAVS
+		-- but it's currently the easiest way to test it
+		-- this PREREQ will certainly change in the future
+	- Object-oriented programming interface
+		-- two methods only, to emphasize ease of use
+
