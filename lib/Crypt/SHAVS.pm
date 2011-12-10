@@ -3,7 +3,7 @@ package Crypt::SHAVS;
 use strict;
 use vars qw($VERSION);
 
-$VERSION   = 0.01;
+$VERSION   = 0.02;
 
 sub new {
 	my ($class, $SHA, $BIT) = @_;
@@ -53,6 +53,7 @@ my $TAGS = join('|', qw(Len Msg MD Seed COUNT));
 sub check {
 	my ($self, $file) = @_;
 
+	local $_;
 	local *F;
 	open(F, $file) or die $!;
 

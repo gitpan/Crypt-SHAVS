@@ -1,10 +1,13 @@
-Crypt-SHAVS version 0.01
+Crypt-SHAVS version 0.02
 ========================
 
 Crypt::SHAVS automates the checking of any SHA implementation by comparing
 its behavior against the detailed test vectors of NIST's SHA Validation
 System (SHAVS).  The capability extends to the testing of upcoming SHA-3
 implementations as well, assuming the continued use of SHAVS by NIST.
+
+See the "scripts" directory for programs that automate the checking of
+various CPAN SHA implementations.
 
 INSTALLATION
 
@@ -19,7 +22,7 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  Digest::SHA
+  None
 
 COPYRIGHT AND LICENCE
 

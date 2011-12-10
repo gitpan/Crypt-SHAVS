@@ -4,8 +4,7 @@ use ExtUtils::MakeMaker;
 my %attr = (
 	NAME              => 'Crypt::SHAVS',
 	VERSION_FROM      => 'lib/Crypt/SHAVS.pm',
-	PREREQ_FATAL      => 1,
-	PREREQ_PM         => {'Digest::SHA' => '5.00'},
+	PREREQ_PM         => {},
 	($] >= 5.005 ?
 		(ABSTRACT_FROM => 'lib/Crypt/SHAVS.pm',
 		AUTHOR         => 'Mark Shelor <mshelor@cpan.org>') : ()),
